@@ -1,59 +1,117 @@
 # Brazilian E-Commerce Analytics Dashboard
 
 ## Project Overview
-End-to-end data analytics project using SQL, Python, and Power BI on Brazilian e-commerce data.
+This project is an end-to-end Data Analytics solution built using SQL, Python, and Power BI on the Brazilian E-Commerce Public Dataset (Olist).
 
-## Objectives
+The project focuses on:
 - Revenue analysis
 - Customer segmentation
 - Product performance analysis
-- Payment behavior analysis
-- Regional sales insights
+- Payment behavior insights
+- Regional sales analysis
+
+---
 
 ## Tech Stack
 - SQL (MySQL)
 - Python (Pandas, NumPy)
 - Power BI
 - DAX
+- GitHub
+
+---
 
 ## Dataset
-Brazilian E-Commerce Public Dataset by Olist
+Brazilian E-Commerce Public Dataset by Olist  
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+---
 
 ## Project Workflow
-1. Data collection
-2. SQL import and cleaning
-3. Python preprocessing
-4. Feature engineering
-5. Dashboard design in Power BI
+1. Data Collection from Kaggle
+2. Data Import into MySQL
+3. Data Cleaning and SQL Analysis
+4. Data Preprocessing using Python
+5. Feature Engineering
+6. Dashboard Development in Power BI
+7. Business Insights Generation
+
+---
 
 ## Dashboard Pages
+
 ### Executive Overview
-KPIs:
+KPIs Included:
 - Total Revenue
 - Total Orders
 - Total Customers
 - Average Order Value
 
+Insights:
+- Revenue performance tracking
+- Monthly trend analysis
+- Order status monitoring
+- Geographic sales contribution
+
+---
+
 ### Customer Intelligence
-- Customer segmentation
-- Repeat customers
-- Revenue by state
-- Payment behavior
+Insights Included:
+- Customer segmentation (Champions, Loyal, At Risk, Regular)
+- Repeat customer analysis
+- Top customer states
+- Revenue contribution by state
+- Payment behavior analysis
+
+---
 
 ### Product Analytics
-- Top products
-- Revenue trend
+Insights Included:
+- Top selling products
+- Product revenue trends
 - Payment type contribution
-- Product performance
+- Product performance metrics
+- State-wise product revenue analysis
 
-## Key Insights
-- Credit cards dominate payments
-- São Paulo generates highest revenue
-- Strong repeat customer segment
-- Revenue growth trend observed
+---
 
-## Screenshots
-(images)
+# Dashboard Screenshots
+
+## Executive Overview
+![Executive Overview](screenshots/executive_overview.png)
+
+## Customer Intelligence
+![Customer Intelligence](screenshots/customer_intelligence.png)
+
+## Product Analytics
+![Product Analytics](screenshots/product_analytics.png)
+
+---
+
+## Key Business Insights
+- Credit card payments dominate overall transactions
+- São Paulo contributes the highest revenue
+- A significant repeat customer segment exists
+- Revenue shows strong growth trends over time
+- Product revenue is concentrated among top-performing items
+
+---
+
+## Repository Structure
+```text
+brazilian-ecommerce-analytics-dashboard/
+│
+├── Brazilian_Ecommerce_Analytics.pbix
+├── data_preprocessing.ipynb
+├── sql_analysis_queries.sql
+├── README.md
+└── screenshots/
+    ├── executive_overview.png
+    ├── customer_intelligence.png
+    └── product_analytics.png
+```
+
+---
 
 ## Author
-SASANK SURYA THOTA
+THOTA SHASHANK SURYA
